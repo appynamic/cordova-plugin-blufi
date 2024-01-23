@@ -59,6 +59,6 @@
 		<header-file src="src/ios/BlufiVersionResponse.h" />
 		<header-file src="src/ios/ESPHeaderFiles.h" />
 		<!-- openssl library -->
-		<framework src="src/ios/Security/openssl.framework" custom="true" />
+		<framework src="src/ios/Security/openssl.framework" custom="true" weak="true" />
 	</platform>
 </plugin>
